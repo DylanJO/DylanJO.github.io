@@ -1,0 +1,59 @@
+.background {
+	background: url(bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.Header {
+	height: 100%;
+}
+
+/*@media (max-width: 500px) {
+    .Header {
+	padding-top: 50%;
+	}
+}*/
+
+.jumboHeader {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 55px;
+	color: #FFF;
+	text-shadow: 2px 2px 10px #000;
+}
+
+@media (max-width: 500px) {
+    .jumboHeader {
+        font-size: 25px;
+    }
+}
+
+.line {
+	background-color: #D63349;
+	height: 2px;
+	width: 5vw;
+	border: 2px solid #D63349;
+	border-radius: 100px;
+	margin: 60px 0px;
+}
+
+.btn {
+	color: #FFF;
+	padding: 10px 40px;
+	font-weight: 500;
+	text-transform: uppercase;
+	background-color: #D63349;
+	font-size: 18px;
+	border-color: #D63349;
+	border-radius: 100px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+	background-color: #34344A;
+	border-color: #34344A;
+	border-radius: 100px;
+	cursor: pointer;
+}
