@@ -1,43 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="Style.css">
-
-	<title>Startup</title>
+	<title>facebook test</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-
-	<div class="container-fluid background">
-		<div class="row align-items-center Header">
-			<div class="col-md-12">
-				<div class="row">
-					<div class="col-md-3">
-					</div>
-
-					<div class="col-md-6">
-						<h1 class="jumboHeader">The smelliest Poop of the year</h1>	
-					</div>
-
-					<div class="col-md-3">	
-					</div>
-
-					<div class="col-md-12">
-						<div class="row justify-content-center">
-							<div class="line"></div>
-						</div>
-					</div>
-
-					<div class="col-md-12">
-						<div class="row justify-content-center">
-							<button type="button" class="btn">Yo dude</button>
-						</div>
-					</div>
-				</div>
-			</div>	
+	<header>
+		<h1 class="logo">Fakebook</h1>
+		<input type="checkbox" id="navToggle" class="navToggle">
+		<label for="navToggle" class="navToggleLabel">
+			<span></span>
+		</label>
+		<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Sign Out</a></li>
+		</ul>
+	</nav>
+	</header>
+	<div class="headerSpace"></div>
+	<div class="wrapper">
+		<div id="profileBlock">
+			<div id="profile">
+				<img id="profPic" src="profile.png">
+			</div>
+		</div>
+		<div id="timeline">
+			<h2>Timeline</h2>
+			<span></span>
 		</div>
 	</div>
-
+	<div class="Modal">
+		<div class="SignInBlock">
+			<h3>Sign In</h3>
+			<input class="inputSignIn" type="text" name="" placeholder="username">
+			<input class="inputSignIn" type="text" name="" placeholder="password">
+			<button id="SignBtn">enter</button>
+		</div>
+	</div>
+	<script type="text/javascript" src="Facebook.js"></script>
 </body>
 </html>
